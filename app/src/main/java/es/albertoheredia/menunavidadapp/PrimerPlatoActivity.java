@@ -1,6 +1,7 @@
 package es.albertoheredia.menunavidadapp;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -36,9 +37,9 @@ public class PrimerPlatoActivity extends AppCompatActivity {
     private void cargarListView(){
         ArrayList<Plato> lista_platos=new ArrayList<>();
 
-        lista_platos.add(new Plato("steak.png", "Presa iberica", "Presa de bellota de grazalema",13.5));
-        lista_platos.add(new Plato("sandwich.png", "Sandwich vegetal", "Ideal para veganos y vegetarianos",9.0));
-        lista_platos.add(new Plato("broccoli.png", "Salteado de verduras", "Contiene brocoli, pimiento, tomate...",22.8));
+        lista_platos.add(new Plato("steak", "Presa iberica", "Presa de bellota de grazalema",13.5));
+        lista_platos.add(new Plato("sandwich", "Sandwich vegetal", "Ideal para veganos y vegetarianos",9.0));
+        lista_platos.add(new Plato("broccoli", "Salteado de verduras", "Contiene brocoli, pimiento...",22.8));
 
         AdaptadorPlatos ap = new AdaptadorPlatos(getApplicationContext(), lista_platos);
 
@@ -76,6 +77,7 @@ public class PrimerPlatoActivity extends AppCompatActivity {
 
             TextView tvPrecio = (TextView)item.findViewById(R.id.item_lp_precio);
             tvPrecio.setText(lista_platos.get(position).getPrecio()+" €");
+
             return(item);
         }
     }

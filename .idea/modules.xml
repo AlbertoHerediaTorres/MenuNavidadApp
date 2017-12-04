@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MenuNavidadApp.iml" filepath="$PROJECT_DIR$/MenuNavidadApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MenuNavidadApp.iml" filepath="$PROJECT_DIR$/.idea/MenuNavidadApp.iml" />
+      <module fileurl="file://C:\Users\Nino Ruano\AndroidStudioProjects\MenuNavidadApp\MenuNavidadApp.iml" filepath="C:\Users\Nino Ruano\AndroidStudioProjects\MenuNavidadApp\MenuNavidadApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Nino Ruano\AndroidStudioProjects\MenuNavidadApp\app\app.iml" filepath="C:\Users\Nino Ruano\AndroidStudioProjects\MenuNavidadApp\app\app.iml" />
     </modules>
   </component>
 </project>
